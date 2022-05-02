@@ -12,7 +12,7 @@ namespace RonSijm.CSharp.GetterBenchmarks
     [NativeMemoryProfiler]
     [ThreadingDiagnoser]
     [Orderer(SummaryOrderPolicy.FastestToSlowest)]
-    public class BenchmarkPropertyAccessors
+    public class BenchmarkPropertyAccessorsWithConstruction
     {
         [Benchmark]
         public HttpMethod DefaultGetter()
